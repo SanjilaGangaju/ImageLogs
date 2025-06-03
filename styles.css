@@ -11,7 +11,7 @@ body{
     padding: 0;
     position: relative;
     background-color: var(--rich-black-bg-);
-   
+    height: 40vh;
 }
 a{
     text-decoration: none;
@@ -23,10 +23,10 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-
-    padding-top: 10px;
-   
-   
+    justify-content: space-between;
+    padding-top: 2vh;
+    background-color: rgba(14, 33, 48, 0.476);
+    height: 10vh;
 
 }
 .nav-lists{
@@ -42,13 +42,19 @@ header{
     
 }
 .nav-lists a:hover{
-    color: var(--desert-sand);
+    color: var(--button-blue);
 }
 .logo-side span{
     font-size: 1.7rem;
     color: var(--cadet-grey-);
     font-weight: 700;
 
+}
+.logo-side{
+    margin-left: 30vh;
+}
+.subsc-btn{
+    margin-right: 30vh;
 }
 .subsc-btn button{
     border-radius: 5px;
@@ -64,3 +70,40 @@ header{
 }
 .subsc-btn button:hover{
 background-image: linear-gradient(to right, #348cc2,  #d19cd9)}
+
+@media (max-width: 720px) {
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2vh 3vw;
+    }
+    .nav-lists{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+        margin-top: 10px;
+
+    }
+    .subsc-btn{
+        margin-top: 10px;
+    }
+    .logo-side span{
+        font-size: 1.4rem;
+    }
+    
+}
+@media (max-width: 480px) {
+  .nav-lists {
+    font-size: 1rem;
+  }
+
+  .logo-side span {
+    font-size: 1.2rem;
+  }
+
+  .subsc-btn button {
+    font-size: 0.75rem;
+    padding: 5px 8px;
+  }
+}
