@@ -1,0 +1,66 @@
+:root{
+  --rich-black-bg-:#0D1F2D;
+  --cadet-grey-: #9EA3B0;
+  --paynes-grey: #546A7B;
+  --misty-rose: #FAE1DF;
+  --desert-sand: #E4C3AD;
+  --button-blue:  #348cc2;
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: var(--rich-black-bg-);
+   
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding-top: 10px;
+   
+   
+
+}
+.nav-lists{
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+    list-style-type: none;
+    font-weight: 1.1rem;
+}
+.nav-lists a{
+    color: var(--cadet-grey-);
+    
+}
+.nav-lists a:hover{
+    color: var(--desert-sand);
+}
+.logo-side span{
+    font-size: 1.7rem;
+    color: var(--cadet-grey-);
+    font-weight: 700;
+
+}
+.subsc-btn button{
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-color: var(--button-blue);
+    border: none;
+    outline: none;
+    color: var(--rich-black-bg-);
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+.subsc-btn button:hover{
+background-image: linear-gradient(to right, #348cc2,  #d19cd9)}
