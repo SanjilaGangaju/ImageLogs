@@ -113,3 +113,44 @@ background-image: linear-gradient(to right, #348cc2,  #d19cd9)}
     padding: 5px 8px;
   }
 }
+.hero-section{
+    margin-top: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.email-input{
+    border-radius: 12px;
+    border: 2px solid var(--button-blue);
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+
+
+}
+.hero-left p{
+    color: var(--cadet-grey-);
+}
+.hero-left h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.hero-left input{
+    border: none;
+    background-color: transparent;
+}
+.hero-left button{
+    border-radius: 5px;
+    padding: 6px 15px;
+    background-color: var(--button-blue);
+    border: none;
+    outline: none;
+    color: var(--rich-black-bg-);
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
