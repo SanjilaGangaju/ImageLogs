@@ -134,6 +134,9 @@ background-image: linear-gradient(to right, #348cc2,  #d19cd9)}
 .email-input:hover{
     box-shadow: 0 0 10px var(--button-blue);
 }
+.hero-left{
+    width: 40%;
+}
 .hero-left p{
     color: var(--cadet-grey-);
 }
