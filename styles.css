@@ -32,7 +32,6 @@ header{
 .nav-lists{
     display: flex;
     align-items: center;
-    
     gap: 20px;
     list-style-type: none;
     font-weight: 1.1rem;
@@ -48,10 +47,17 @@ header{
     font-size: 1.7rem;
     color: var(--cadet-grey-);
     font-weight: 700;
-
+    
 }
 .logo-side{
     margin-left: 30vh;
+    
+}
+.logo-side img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-blend-mode: difference;
 }
 .subsc-btn{
     margin-right: 30vh;
