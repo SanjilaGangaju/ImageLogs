@@ -131,17 +131,29 @@ background-image: linear-gradient(to right, #348cc2,  #d19cd9)}
 
 
 }
+.email-input:hover{
+    box-shadow: 0 0 10px var(--button-blue);
+}
 .hero-left p{
     color: var(--cadet-grey-);
 }
+.hero-left span:first-child{
+    color: #fff;
+}
+.hero-left span:last-child{
+    background-image: linear-gradient(to right, #348cc2,  #d19cd9);
+    background-clip: text;
+    color: transparent;
+}
 .hero-left h1{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 800;
 }
 .hero-left input{
     border: none;
     background-color: transparent;
 }
+
 .hero-left button{
     border-radius: 5px;
     padding: 6px 15px;
@@ -153,4 +165,9 @@ background-image: linear-gradient(to right, #348cc2,  #d19cd9)}
     font-weight: 400;
     cursor: pointer;
     
+}
+.hero-left button:hover{
+    background-image: linear-gradient(to right, #348cc2,  #d19cd9);
+    
+   
 }
